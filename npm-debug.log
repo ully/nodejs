@@ -1,0 +1,187 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'gui' ]
+info using npm@1.1.1
+info using node@v0.6.11
+verbose config file C:\Users\lihan01\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\lihan01\AppData\Roaming\npm 755
+verbose mkdir done: D:\gitspace\nodejs 755
+verbose caching D:\gitspace\nodejs\node_modules\formidable\package.json
+verbose loadDefaults formidable@1.0.9
+verbose cache add [ 'gui', null ]
+silly cache add: name, spec, args [ undefined, 'gui', [ 'gui', null ] ]
+verbose parsed url { pathname: 'gui', path: 'gui', href: 'gui' }
+verbose addNamed [ 'gui', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'gui', '', false ]
+verbose raw, before any munging gui
+verbose url resolving [ 'https://registry.npmjs.org/', './gui' ]
+verbose url resolved https://registry.npmjs.org/gui
+http GET https://registry.npmjs.org/gui
+http 200 https://registry.npmjs.org/gui
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7O5UBIHSW4L97RA3UE5ZN2E9A"',
+silly get cb     date: 'Tue, 28 Feb 2012 14:01:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1487' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\lihan01\AppData\Roaming\npm-cache\gui'
+verbose mkdir done: C:\Users\lihan01\AppData\Roaming\npm-cache\gui 755
+silly name, range, hasData 2 [ 'gui', '', true ]
+silly versions [ 'gui', [ '0.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7600',
+verbose bin dist   { shasum: '3b0fb5135e111bbe03b305e0c643e883e9540842',
+verbose bin dist     tarball: 'http://registry.npmjs.org/gui/-/gui-0.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/gui/-/gui-0.0.1.tgz',
+verbose addRemoteTarball   '3b0fb5135e111bbe03b305e0c643e883e9540842' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456'
+verbose mkdir done: C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456 755
+verbose fetch to C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\tmp.tgz
+verbose mkdir done: C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456 755
+http GET https://registry.npmjs.org/gui/-/gui-0.0.1.tgz
+http 200 https://registry.npmjs.org/gui/-/gui-0.0.1.tgz
+silly updated sha bytes 29374
+info shasum 3b0fb5135e111bbe03b305e0c643e883e9540842
+info shasum C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\___package.npm'
+verbose mkdir done: C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\___package.npm\package
+verbose rm'ed C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package
+verbose renamed [ 'C:\\Users\\lihan01\\AppData\\Local\\Temp\\npm-1330437704972\\1330437704972-0.26717174891382456\\___package.npm\\package',
+verbose renamed   'C:\\Users\\lihan01\\AppData\\Local\\Temp\\npm-1330437704972\\1330437704972-0.26717174891382456\\package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\lihan01\\AppData\\Local\\Temp\\npm-1330437704972\\1330437704972-0.26717174891382456\\package\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+WARN gui@0.0.1 package.json: bugs['web'] should probably be bugs['url']
+verbose caching C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package\package.json
+verbose loadDefaults gui@0.0.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package\package.json
+verbose pack C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package
+verbose pack C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package.tgz
+silly makeList C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package
+silly dir, dirLen [ 'C:\\Users\\lihan01\\AppData\\Local\\Temp\\npm-1330437704972\\1330437704972-0.26717174891382456\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package.tgz
+verbose parent C:\Users\lihan01\AppData\Local\Temp\npm-1330437704972\1330437704972-0.26717174891382456\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\___package.npm'
+verbose mkdir done: C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\___package.npm\package
+verbose rm'ed C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package
+verbose renamed [ 'C:\\Users\\lihan01\\AppData\\Roaming\\npm-cache\\gui\\0.0.1\\___package.npm\\package',
+verbose renamed   'C:\\Users\\lihan01\\AppData\\Roaming\\npm-cache\\gui\\0.0.1\\package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\lihan01\\AppData\\Roaming\\npm-cache\\gui\\0.0.1\\package\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package\package.json
+verbose loadDefaults gui@0.0.1
+silly updated sha bytes 28809
+info shasum 07c17e6dbb964e592edddbc9ef0051d64dccdf6d
+info shasum C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package.tgz
+verbose from cache C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package\package.json
+verbose chmod C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package.tgz 644
+silly skipping chown for windows C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package.tgz
+silly resolved [ { name: 'gui',
+silly resolved     description: 'GTK+ porting for node.js',
+silly resolved     keywords: [ 'GTK+', 'gui' ],
+silly resolved     version: '0.0.1',
+silly resolved     author: { name: 'Zhao Cheng', email: 'zcbenz@gmail.com' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/zcbenz/node-gui.git' },
+silly resolved     bugs: { url: 'https://github.com/zcbenz/node-gui/issues' },
+silly resolved     scripts: 
+silly resolved      { preinstall: 'node-waf configure',
+silly resolved        install: 'node-waf build install' },
+silly resolved     os: [ 'linux', 'darwin', 'freebsd', 'windows' ],
+silly resolved     homepage: 'https://github.com/zcbenz/node-gui',
+silly resolved     config: { native: true },
+silly resolved     engines: { node: '>=0.5.8' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'The MIT License',
+silly resolved          url: 'http://www.opensource.org/licenses/mit-license.php' } ],
+silly resolved     _id: 'gui@0.0.1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '07c17e6dbb964e592edddbc9ef0051d64dccdf6d' } } ]
+info into D:\gitspace\nodejs gui@0.0.1
+info installOne gui@0.0.1
+info unbuild D:\gitspace\nodejs\node_modules\gui
+verbose from cache C:\Users\lihan01\AppData\Roaming\npm-cache\gui\0.0.1\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\gitspace\nodejs\node_modules\___gui.npm'
+verbose mkdir done: D:\gitspace\nodejs\node_modules\___gui.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\gitspace\nodejs\node_modules\gui
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed D:\gitspace\nodejs\node_modules\___gui.npm\package
+verbose rm'ed D:\gitspace\nodejs\node_modules\gui
+verbose renamed [ 'D:\\gitspace\\nodejs\\node_modules\\___gui.npm\\package',
+verbose renamed   'D:\\gitspace\\nodejs\\node_modules\\gui' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'D:\\gitspace\\nodejs\\node_modules\\gui\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching D:\gitspace\nodejs\node_modules\gui\package.json
+verbose loadDefaults gui@0.0.1
+info preinstall gui@0.0.1
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "node-waf configure"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'node-waf configure' ],
+silly spawning   'D:\\gitspace\\nodejs\\node_modules\\gui' ]
+info gui@0.0.1 Failed to exec preinstall script
+ERR! error installing gui@0.0.1
+info unbuild D:\gitspace\nodejs\node_modules\gui
+verbose from cache D:\gitspace\nodejs\node_modules\gui\package.json
+info preuninstall gui@0.0.1
+info uninstall gui@0.0.1
+verbose unbuild gui@0.0.1 [ true,
+verbose unbuild gui@0.0.1   'D:\\gitspace\\nodejs\\node_modules',
+verbose unbuild gui@0.0.1   'D:\\gitspace\\nodejs\\node_modules' ]
+info postuninstall gui@0.0.1
+verbose installOne cb gui@0.0.1
+ERR! gui@0.0.1 preinstall: `node-waf configure`
+ERR! `cmd "/c" "node-waf configure"` failed with 1
+ERR! 
+ERR! Failed at the gui@0.0.1 preinstall script.
+ERR! This is most likely a problem with the gui package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf configure
+ERR! You can get their info via:
+ERR!     npm owner ls gui
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7600
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gui"
+ERR! cwd D:\gitspace\nodejs
+ERR! node -v v0.6.11
+ERR! npm -v 1.1.1
+ERR! code ELIFECYCLE
+ERR! message gui@0.0.1 preinstall: `node-waf configure`
+ERR! message `cmd "/c" "node-waf configure"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
